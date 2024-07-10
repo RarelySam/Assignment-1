@@ -1,0 +1,100 @@
+html {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nav-text {
+  font-size: larger;
+  display: inline-block;
+  margin-left: 20px;
+  text-align: center;
+  align-items: center;
+}
+.nav-logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+  align-items: center;
+}
+.navbar {
+  border-bottom: solid 2px darkgray;
+}
+.display-inline-flex {
+  display: inline-flex;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.contact-me {
+  height: 40px;
+  width: 100px;
+  display: inline;
+  float: right;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: solid 2px #dd2d4a;
+  box-shadow: 0 0px 20px 2.5px #dd2d4a;
+}
+
+.my-pic {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-monospace {
+    font-family: monospace;
+}
+
+.my-text {
+    font-size: 2em;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.articles {
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.container {
+    border: solid darkgray 4px;
+    border-radius: 0px 20px 20px 20px;
+    padding: 10px 20px;
+    box-shadow: 0 0px 10px 2.5px #a9a9a97f;
+    margin-right: 10px;
+}
+
+p {
+    font-family: monospace;
+    font-size: large;
+}
+
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
