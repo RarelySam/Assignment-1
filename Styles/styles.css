@@ -85,19 +85,43 @@ html {
 }
 
 #sub-text {
-
   margin-bottom: 100px;
   color: rgba(175, 175, 175, 0.725);
 }
 
 .container {
+  flex-wrap: wrap;
   border: solid darkgray 4px;
   border-radius: 0px 20px 20px 20px;
   padding: 10px 20px;
   box-shadow: 0 0px 10px 2.5px #a9a9a97f;
   margin-right: 10px;
+  margin-top: 10px;
+  backdrop-filter: blur(5px);
 }
-
+.card-container-no-radius {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid darkgray 4px;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px 20px;
+  box-shadow: 0 0px 10px 2.5px #a9a9a97f;
+  margin-right: 10px;
+  margin-top: 10px;
+  backdrop-filter: blur(5px);
+}
+.repeating-container {
+  flex-wrap: wrap;
+  border: solid darkgray 4px;
+  border-radius: 0px 20px 20px 0px;
+  padding: 10px 20px;
+  box-shadow: 0 0px 10px 2.5px #a9a9a97f;
+  margin-right: 10px;
+  margin-top: 10px;
+  backdrop-filter: blur(5px);
+}
 .container-parent {
   width: 90vw;
   display: block;
@@ -125,4 +149,147 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.container-image-left {
+  flex: 0.05;
+  width: 20%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.container-title {
+  flex: 1;
+  display: inline-block;
+  font-size: 1.5em;
+  text-shadow: 4px 4px 20px;
+  margin: 10px 20px;
+  text-decoration: underline;
+  align-content: center;
+  margin-left: 50px;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  backdrop-filter: blur(20px);
+  z-index: 2;
+}
+
+#my-inspiration {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#vid-container {
+  margin-bottom: 50px;
+}
+
+body {
+  min-width: 700px;
+}
+
+.card{
+  display: inline-block;
+  border: solid #ff651e 4px;
+  height: 250px;
+  width: 200px;
+  border-radius: 12.5px;
+  padding: 20px;
+  margin: 7.5px 10px;
+  box-shadow: 0 0px 20px 2.5px #ff651e;
+}
+
+.card-2{
+  display: inline-block;
+  border: solid #0047da 4px;
+  height: 250px;
+  width: 200px;
+  border-radius: 12.5px;
+  padding: 20px;
+  margin: 7.5px 10px;
+  box-shadow: 0 0px 20px 2.5px #0047da;
+}
+
+.card-3{
+  display: inline-block;
+  border: solid #ffdf00 4px;
+  height: 250px;
+  width: 200px;
+  border-radius: 12.5px;
+  padding: 20px;
+  margin: 7.5px 10px;
+  box-shadow: 0 0px 20px 2.5px #ffdf00;
+}
+.card-4{
+  display: inline-block;
+  border: solid #61dafb 4px;
+  height: 250px;
+  width: 200px;
+  border-radius: 12.5px;
+  padding: 20px;
+  margin: 7.5px 10px;
+  box-shadow: 0 0px 20px 2.5px #61dafb;
+}
+.card-5{
+  display: inline-block;
+  border: solid #41873f 4px;
+  height: 250px;
+  width: 200px;
+  border-radius: 12.5px;
+  padding: 20px;
+  margin: 7.5px 10px;
+  box-shadow: 0 0px 20px 2.5px #41873f;
+}
+.card-6{
+  display: inline-block;
+  border: solid #6cac48 4px;
+  height: 250px;
+  width: 200px;
+  border-radius: 12.5px;
+  padding: 20px;
+  margin: 7.5px 10px;
+  box-shadow: 0 0px 20px 2.5px #6cac48;
+}
+.card-img {
+  display: block;
+  margin: auto;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+#feedback-section {
+  margin-top: 20px;
+}
+
+#feedback-box {
+  width: 25vw;
+  height: 20px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+#feedback-box::placeholder {
+  color: #a9a9a9;
+}
+
+#feedback-button {
+  margin-left: 10px;
+  border-radius: 20px;
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  border: 3px solid #a9a9a9;
+  color: white;
+  box-shadow: 0 0px 10px 2px #a9a9a9;
+  cursor: pointer;
 }
