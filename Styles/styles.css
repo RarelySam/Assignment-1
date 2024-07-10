@@ -189,7 +189,7 @@ body {
   min-width: 700px;
 }
 
-.card{
+.card {
   display: inline-block;
   border: solid #ff651e 4px;
   height: 250px;
@@ -200,7 +200,7 @@ body {
   box-shadow: 0 0px 20px 2.5px #ff651e;
 }
 
-.card-2{
+.card-2 {
   display: inline-block;
   border: solid #0047da 4px;
   height: 250px;
@@ -211,7 +211,7 @@ body {
   box-shadow: 0 0px 20px 2.5px #0047da;
 }
 
-.card-3{
+.card-3 {
   display: inline-block;
   border: solid #ffdf00 4px;
   height: 250px;
@@ -221,7 +221,7 @@ body {
   margin: 7.5px 10px;
   box-shadow: 0 0px 20px 2.5px #ffdf00;
 }
-.card-4{
+.card-4 {
   display: inline-block;
   border: solid #61dafb 4px;
   height: 250px;
@@ -231,7 +231,7 @@ body {
   margin: 7.5px 10px;
   box-shadow: 0 0px 20px 2.5px #61dafb;
 }
-.card-5{
+.card-5 {
   display: inline-block;
   border: solid #41873f 4px;
   height: 250px;
@@ -241,7 +241,7 @@ body {
   margin: 7.5px 10px;
   box-shadow: 0 0px 20px 2.5px #41873f;
 }
-.card-6{
+.card-6 {
   display: inline-block;
   border: solid #6cac48 4px;
   height: 250px;
