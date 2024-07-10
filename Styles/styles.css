@@ -184,11 +184,6 @@ nav {
 #vid-container {
   margin-bottom: 50px;
 }
-
-body {
-  min-width: 700px;
-}
-
 .card {
   display: inline-block;
   border: solid #ff651e 4px;
@@ -302,6 +297,8 @@ body {
   margin-top: 40px;
 }
 #contacts {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.341);
   padding: 10px;
   display: inline-flex;
   align-items: center;
